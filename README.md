@@ -5,15 +5,35 @@ This is a very simple Go-based Lambda project created to become more familiar wi
 ## Goals
 
 * *Establish basic project functionality.* Write code that illustrates some basic functionality of Lambda with Go. (In this case, that means generating a random number between 0 and "max".)
+* *Add Makefile functionality.* Use Makefile to make the project easier to use and interact with.
 * *Add CloudFormation functionality.* AWS CloudFormation is used to provision infrastructure resources in a safe, repeatable way. Familiarity with CloudFormation will help with future projects.
 
-## Getting Started
+## Usage
 
 ### Prerequisites
 
 Go can be downloaded [here](https://golang.org/doc/install).
 
 AWS CLI can be downloaded [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html). Note: Installing the AWS Command Line Interface requires Python 2 version 2.6.5+ or Python 3 version 3.3+.
+
+### Usage
+
+Create a zip file of the project with the following command:
+
+```
+make zip
+```
+
+This will create a zip file titled *handler.zip* which can be uploaded directly to the Lambda function console once you've created a Lambda function.
+
+An example test configuration for this project might be:
+
+```
+{
+  "id": 45678,
+  "max": 100
+}
+```
 
 ## Tech Stack
 
