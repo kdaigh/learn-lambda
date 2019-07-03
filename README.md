@@ -6,7 +6,6 @@ This is a very simple Go-based Lambda project created to become more familiar wi
 
 * *Establish basic project functionality.* Write code that illustrates some basic functionality of Lambda with Go. (In this case, that means generating a random number between 0 and "max".)
 * *Add Makefile functionality.* Use Makefile to make the project easier to use and interact with.
-* *Add CloudFormation functionality.* AWS CloudFormation is used to provision infrastructure resources in a safe, repeatable way. Familiarity with CloudFormation will help with future projects.
 
 ## Usage
 
